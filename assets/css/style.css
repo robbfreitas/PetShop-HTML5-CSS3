@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    margin: 0 40px;
+}
+
+.container-banner {
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-image: url("https://images.pexels.com/photos/406014/pexels-photo-406014.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-position:center ;
+    background-size: cover;
+}
