@@ -1,9 +1,31 @@
 .container{
+    background-color: cornflowerblue;
+}
+
+.container-menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100px;
     margin: 0 40px;
+    height: 100px;
+}
+
+.icon-list {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+    padding: 0  5px;
+}
+
+.icon-list:hover{
+    color: black;
+    font-size: 1.75rem;
+    transition-duration: 350ms;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 0px;
+    border-color: none;
+    background-color: rgb(252, 252, 252);
 }
 
 .container-banner {
