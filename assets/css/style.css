@@ -43,7 +43,7 @@ body {
 
 .main-about {
     margin: 10px 0;
-    background-color: cornflowerblue;
+    background-color: #ADC4F0;
 }
 
 .container-about {
@@ -109,7 +109,7 @@ body {
     height: 400px;
 }
 
-.card-banho {
+.card-banho, .card-tosa, .card-exames {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -117,33 +117,28 @@ body {
     width: 250px;
     height: 250px;
     padding: 2px 8px;
-    background-color: cornflowerblue;
     border-radius: 25px;
-    line-height: 2rem;
+    cursor: pointer;
+    background-color: #4E74BA;
 }
 
-.card-tosa {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    width: 250px;
-    height: 250px;
-    padding: 2px 8px;
-    background-color: cornflowerblue;
-    border-radius: 25px;
-    line-height: 2rem;
+.card-banho p {
+    line-height: 4rem;
+    font-weight: bold;
+    font-size: 2rem;
+    color: white;
 }
 
-.card-exames {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    width: 250px;
-    height: 250px;
-    padding: 2px 8px;
-    background-color: cornflowerblue;
-    border-radius: 25px;
-    line-height: 2rem;
+.card-tosa p {
+    line-height: 4rem;
+    font-weight: bold;
+    font-size: 2rem;
+    color: white;
+}
+
+.card-exames p {
+    line-height: 4rem;
+    font-weight: bold;
+    font-size: 2rem;
+    color: white;
 }
