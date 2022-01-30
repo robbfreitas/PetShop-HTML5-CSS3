@@ -114,6 +114,7 @@ body {
     text-align: center;
     padding: 10px 0;
     font-size: 2rem;
+    font-weight: bold;
 }
 
 .card-banho, .card-tosa, .card-exames {
@@ -187,6 +188,8 @@ body {
     text-align: center;
     padding: 10px 0;
     font-size: 2rem;
+    font-weight: bold;
+    color: white;
 }
 
 .container-plans {
