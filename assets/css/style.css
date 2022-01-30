@@ -96,7 +96,6 @@ body {
 }
 
 .main-services {
-
     background-color: #f8f8ff;
 }
 
@@ -111,7 +110,7 @@ body {
     background-size: cover;
 }
 
-.services {
+.tittle-services {
     text-align: center;
     padding: 10px 0;
     font-size: 2rem;
@@ -182,6 +181,12 @@ body {
 
 .main-plans {
     background-color: #ADC4F0;
+}
+
+.tittle-plans{
+    text-align: center;
+    padding: 10px 0;
+    font-size: 2rem;
 }
 
 .container-plans {
