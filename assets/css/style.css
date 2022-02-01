@@ -82,6 +82,10 @@ body {
     border-radius: 25px;
 }
 
+.card-text p {
+    font-size: 1.2rem;
+}
+
 .card-text:hover {
     display: flex;
     align-items: center;
