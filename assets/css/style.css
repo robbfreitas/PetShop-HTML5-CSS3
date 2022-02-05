@@ -285,6 +285,26 @@ body {
     width: 100%;
 }
 
+form {
+    text-align: center;
+    width: 100%;
+    background-color: #B0E0E6;
+}
+
+form div {
+    padding: 1em;
+}
+form input{
+    border: 1px solid #999;
+    border-radius: 10px;
+    height: 20px;
+}
+
+form textarea {
+    height: 7rem;
+    border-radius: 10px;
+}
+
 footer {
     display: flex;
     justify-content: center;
