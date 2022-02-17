@@ -329,6 +329,17 @@ form textarea {
     border-radius: 10px;
 }
 
+.top-icon {
+    text-decoration: none;
+    color: white;
+    background-color: cornflowerblue;
+    padding: 10px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    box-shadow: 4px 4px 12px #333;
+}
+
 footer {
     display: flex;
     justify-content: center;
