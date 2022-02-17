@@ -10,8 +10,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 40px;
-    height: 100px;
+    margin: 0 70px;
+    height: 140px;
 }
 
 .icon-list {
@@ -35,7 +35,7 @@ body {
 .container-banner {
     display: flex;
     width: 100%;
-    height: calc(100vh - 100px);
+    height: calc(100vh - 140px);
     background-image: url("https://images.pexels.com/photos/406014/pexels-photo-406014.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
     background-position:center ;
     background-size: cover;
@@ -133,7 +133,7 @@ body {
     border-radius: 25px;
     cursor: pointer;
     background-color: #4E74BA;
-    opacity: 0.8;
+    opacity: 0.95;
 }
 
 .card-banho:hover{
@@ -203,7 +203,7 @@ body {
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    height: 400px;
+    height: 350px;
 }
 
 .card-padrao {
@@ -290,8 +290,17 @@ form {
     align-items: center;
     justify-content: space-around;
     padding: 8px 0;
+    height: 350px;
     width: 100%;
     background-color: #B0E0E6;
+}
+
+.form-tittle {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
 }
 
 .container-form {
