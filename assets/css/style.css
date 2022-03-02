@@ -65,7 +65,7 @@ body {
     width: 250px;
     height: 250px;
     background-size: cover;
-    border-radius: 25px;
+    border-radius: 100%;
 }
 
 .area-image:hover {
@@ -82,7 +82,7 @@ body {
     height: 250px;
     padding: 2px 8px;
     background-color: #f5f5f5;
-    border-radius: 25px;
+    border-radius: 100%;
 }
 
 .card-text p {
