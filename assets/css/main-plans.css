@@ -1,0 +1,87 @@
+.main-plans {
+    background-color: #ADC4F0;
+}
+
+.tittle-plans{
+    text-align: center;
+    padding: 10px 0;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+
+.container-plans {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 350px;
+}
+
+.card-padrao {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 250px;
+    height: 250px;
+    padding: 2px 8px;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: #E0FFFF;
+}
+
+.card-padrao:hover {
+    cursor: pointer;
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    transition-duration: 350ms;
+}
+
+.card-padrao h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card-padrao p{
+    text-align: center;
+    line-height: 2rem;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.card-premium {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 250px;
+    height: 250px;
+    padding: 2px 8px;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: #B0E0E6;
+}
+
+.card-premium h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card-premium p{
+    text-align: center;
+    line-height: 2rem;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.card-premium:hover{
+    cursor: pointer;
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    transition-duration: 350ms;
+}

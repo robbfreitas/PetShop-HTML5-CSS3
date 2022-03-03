@@ -1,0 +1,10 @@
+.text-localization {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.map {
+    width: 100%;
+}

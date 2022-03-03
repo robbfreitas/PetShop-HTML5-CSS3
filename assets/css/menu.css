@@ -1,0 +1,46 @@
+.container{
+    background-color: cornflowerblue;
+}
+
+.container-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 90px;
+    height: 100px;
+}
+
+.icon-list {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+    padding: 0  5px;
+}
+
+.icon-list:hover{
+    color: black;
+    font-size: 1.75rem;
+    transition-duration: 350ms;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 0px;
+    border-color: none;
+    background-color: rgb(252, 252, 252);
+}
+
+.container-banner {
+    display: flex;
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-image: url("https://images.pexels.com/photos/406014/pexels-photo-406014.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-position:center ;
+    background-size: cover;
+}
+
+.text-banner {
+    margin: 0 auto;
+    padding: 100px;
+    font-family: 'Lobster', cursive;
+    font-size: 3rem;
+    color: cornflowerblue;
+}
