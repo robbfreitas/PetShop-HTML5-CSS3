@@ -44,3 +44,12 @@
     font-size: 3rem;
     color: cornflowerblue;
 }
+
+@media screen and (max-width: 768px) {
+    .container-menu {
+        flex-direction: column;
+    }
+    .icon-list {
+        font-size: 1.25rem;
+    }
+}
